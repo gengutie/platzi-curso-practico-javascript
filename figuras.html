@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+   <header>
+    <h1>
+        Figuras geométricas
+    </h1>
+    <p>Este es el primer taller del curso Práctico de JavaScript</p>
+   </header>
+
+   <section>
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">
+                Escribe cuánto mide cada lado de tu cuadrado:
+            </label>
+            <input id="InputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetroCuadrado()"> 
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+        </form>
+   </section>
+   <section>
+    <h2>Calcula la altura de un triangulo isóceles</h2>
+    <form>
+        <label for="InputLado1">
+            Escribe cuánto mide lado1 de tu triangulo:
+        </label>
+        <input id="InputLado1" type="number" />
+        <label for="InputLado2">
+            Escribe cuánto mide lado2 de tu triangulo:
+        </label>
+        <input id="InputLado2" type="number" />
+        <label for="InputBase">
+            Escribe cuánto mide base de tu triangulo:
+        </label>
+        <input id="InputBase" type="number" />
+        <button type="button" onclick="calcularAlturaTrianguloIsosceles()"> 
+            Calcular la altura
+        </button>
+        
+    </form>
+</section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
